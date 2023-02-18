@@ -14,7 +14,7 @@ Postdoc
 ---
 <ol>
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'research' %}
+  {% if post.pubtype == 'postdoc' %}
      <li> {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
@@ -24,7 +24,7 @@ Graduate
 ---
 <ol>
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'review' %} 
+  {% if post.pubtype == 'graduate' %} 
   <li>    {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
@@ -34,7 +34,7 @@ Undergraduate
 ---
 <ol>
 {% for post in site.publications reversed %}
-  {% if post.pubtype == 'commentary' %} 
+  {% if post.pubtype == 'undergraduate' %} 
   <li>    {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
