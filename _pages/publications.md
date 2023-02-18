@@ -10,7 +10,7 @@ author_profile: true
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-Research Articles
+Postdoc
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -20,7 +20,7 @@ Research Articles
 {% endfor %}
 </ol>
 
-Reviews
+Graduate
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -30,7 +30,7 @@ Reviews
 {% endfor %}
 </ol>
 
-Commentaries/Editorials
+Undergraduate
 ---
 <ol>
 {% for post in site.publications reversed %}
@@ -40,31 +40,11 @@ Commentaries/Editorials
 {% endfor %}
 </ol>
 
-Preprints / Under Review
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'preprint' %}
-      <li> {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
-
 Patents
 ---
 <ol>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'patent' %}
-   <li>   {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
-
-Monographs
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'thesis' %}
    <li>   {% include archive-single.html %} </li>
   {% endif %}
 {% endfor %}
