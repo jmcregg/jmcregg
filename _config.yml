@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 :  "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -88,7 +88,7 @@ author:
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Jared%20Cregg&sort=date"
   googlescholar    : "https://scholar.google.com/citations?user=1h7u8K8AAAAJ&hl=en"
   email            : 
-  researchgate     :  # example: "https://www.researchgate.net/profile/Jared-Cregg"
+  researchgate     : "https://www.researchgate.net/profile/Jared-Cregg"
   uri              :
   bitbucket        :
   codepen          :
