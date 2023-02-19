@@ -31,7 +31,7 @@
         <!--        {{post.authors}}. <br> -->
         {{post.authbefore}} <b>Jared M Cregg</b>{{post.authafter}}. <br>
         {% if post.special %}
-        ({{ post.special }}<br>)
+        {{ post.special }}<br>
         {% endif %}
     <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. 
         {% if post.paperurl %}
