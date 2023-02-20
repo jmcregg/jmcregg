@@ -9,13 +9,15 @@ redirect_from:
 
 <style>
 tr:nth-child(even) {
-  background-color: #b2b2b2!important;
-  color: #f4f4f4!important;
+  background-color: #edebeb!important;
 }
 </style>
 
-| Col 1 | Col 2 | Col 3 |
-| ----- | ----- | ----- |
+| Education
+======
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected) | Col 2 | Col 3 |
 | A     | B     | C     |
 | 1     | 2     | 3     |
 | A1    | B2    | C3    |
