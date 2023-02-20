@@ -7,6 +7,19 @@ redirect_from:
   - /resume
 ---
 
+<style>
+tr:nth-child(even) {
+  background-color: #b2b2b2!important;
+  color: #f4f4f4!important;
+}
+</style>
+
+| Col 1 | Col 2 | Col 3 |
+| ----- | ----- | ----- |
+| A     | B     | C     |
+| 1     | 2     | 3     |
+| A1    | B2    | C3    |
+
 {% include base_path %}
 
 Education
