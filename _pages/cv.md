@@ -7,14 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<style>
-.colored {
-  background-color: #edebeb!important;
-}
-</style>
-
-
-<span background-color: #edebeb!important>
+<span "background-color: #edebeb">
 
 Education
 ======
