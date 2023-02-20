@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<span "background-color: #edebeb">
+<div style="background-color: #edebeb">
 
 Education
 ======
@@ -15,7 +15,7 @@ Education
 * M.S. in Jekyll, GitHub University, 2014
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-</span>
+</div>
 
 Work experience
 ======
