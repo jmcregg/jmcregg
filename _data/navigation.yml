@@ -12,12 +12,9 @@ main:
     
   - title: "DEI"
     url: /dei/
-    
-  - title: "CV"
-    url: /cv/
-    
+        
   - title: "Fun"
     url: /fun/
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "CV"
+    url: /cv/
