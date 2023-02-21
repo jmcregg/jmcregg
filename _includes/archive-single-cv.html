@@ -14,15 +14,15 @@
     
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    {{ post.date | default: "1900-01-01" | date: "%Y" }} "/t"
+    {{ post.date | default: "1900-01-01" | date: "%Y" }} "</t>"
         {% if title %}
-        <b>{{title}}</b> <br>
+        <b>{{title}}</b>
         {% endif %}
         {% if post.smallitem1 %}
-        {{post.smallitem1}} <br>
+        <br> {{post.smallitem1}} 
         {% endif %}
         {% if post.smallitem2 %}
-        {{post.smallitem2}}
+        <br> {{post.smallitem2}}
         {% endif %}
         {% if post.link %}
         (<a href=" {{ post.link }} ">link</a>)
@@ -31,7 +31,7 @@
         (<a href=" {{ post.pdf }} ">pdf</a>)
         {% endif %}
         {% if post.location %}
-         <br><i>{{post.location}}</i>
+        <br> <i>{{post.location}}</i>
         {% endif %}
 
       </article>
