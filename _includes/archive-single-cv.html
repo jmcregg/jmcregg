@@ -38,5 +38,28 @@
     {% endif %}
     {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
     </li>
+    
+    {{ post.date | default: "1900-01-01" | date: "%Y" }}.
+        {% if title %}
+        <b>{{title}}</b> <br>
+        {% endif %}
+        {% if smallitem1 %}
+        {{smallitem1}} <br>
+        {% endif %}
+        {% if smallitem2 %}
+        {{smallitem2}} <br>
+        {% endif %}
+        {% if location %}
+        <i>{{location}}</i> <br>
+        {% endif %}
+        <br>
+        {% if post.url %}
+        (<a href=" {{ post.url }} ">link</a>)
+        {% endif %}
+        {% if post.pdf %}
+          (<a href=" {{ post.pdf }} ">pdf</a>)
+        {% endif %}
+        <br>
+    
  </article>
 </div>
