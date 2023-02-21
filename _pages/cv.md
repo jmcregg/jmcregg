@@ -11,26 +11,11 @@ redirect_from:
 
 emsp Education
 ======
-emsp emsp * B.S. in GitHub, GitHub University, 2012
-emsp emsp * M.S. in Jekyll, GitHub University, 2014
-emsp emsp * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 </div>
-
-
-
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
@@ -43,7 +28,9 @@ Work experience
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
+
+<div style="background-color: #ebebeb" markdown=1>
+
 Skills
 ======
 * Skill 1
@@ -53,17 +40,23 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
+</div>
+
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+<div style="background-color: #ebebeb" markdown=1>
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
+  
+</div>
   
 Teaching
 ======
@@ -71,6 +64,10 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+<div style="background-color: #ebebeb" markdown=1>
+  
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+</div>
