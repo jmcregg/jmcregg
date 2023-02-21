@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; margin-left: 5%; margin-right: 5%;" markdown=1>
 Education
 ---
 <ol>
@@ -23,8 +23,8 @@ Education
 
 <div style="background-color: #FFFFFF" markdown=1> 
 <div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
-Work experience
-======
+Research Positions
+---
 * Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
