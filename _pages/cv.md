@@ -7,11 +7,13 @@ redirect_from:
   - /resume
 ---
 
-<div style="background-color: #ebebeb; height: 80%; margin-left: 10%;" markdown=1>
+<div style="background-color: #ebebeb" markdown=1> 
+<div style="height: 80%; margin-left: 10%;">
 Education
 ======
 * Ph.D in Neuroscience, Case Western Reserve University, 2018
 * B.S. in Biomedical Engineering, Michigan Technological University, 2010
+</div>
 </div>
 
 Work experience
