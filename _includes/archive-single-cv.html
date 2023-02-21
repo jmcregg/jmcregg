@@ -14,7 +14,35 @@
     
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    {{ post.date | default: "1900-01-01" | date: "%Y" }} </t>
+      <table class="tg">
+      <thead>
+      <tr>
+      <td class="tg-0pky">{{ post.date | default: "1900-01-01" | date: "%Y" }}</td>
+      <td class="tg-0lax">        
+        {% if title %}
+        <b>{{title}}</b>
+        {% endif %}
+        {% if post.smallitem1 %}
+        <br> {{post.smallitem1}} 
+        {% endif %}
+        {% if post.smallitem2 %}
+        <br> {{post.smallitem2}}
+        {% endif %}
+        {% if post.link %}
+        (<a href=" {{ post.link }} ">link</a>)
+        {% endif %}
+        {% if post.pdf %}
+        (<a href=" {{ post.pdf }} ">pdf</a>)
+        {% endif %}
+        {% if post.location %}
+        <br> <i>{{post.location}}</i>
+        {% endif %}
+        </td>
+      </tr>
+      </thead>
+      </table>
+        
+      <b>{{ post.date | default: "1900-01-01" | date: "%Y" }}</b> &nbsp;&nbsp;&nbsp;&nbsp;
         {% if title %}
         <b>{{title}}</b>
         {% endif %}
