@@ -7,6 +7,10 @@ redirect_from:
   - /resume
 ---
 
+<div style="background-color:#ebebeb">
+education
+</div>
+
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
