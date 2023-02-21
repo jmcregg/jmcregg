@@ -13,17 +13,6 @@
 {% endif %}
     
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
 
     {{ post.date | default: "1900-01-01" | date: "%Y" }}.
         {% if title %}
@@ -48,4 +37,3 @@
         <br>
 
       </article>
-</div>
