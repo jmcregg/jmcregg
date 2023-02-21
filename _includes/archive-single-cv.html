@@ -16,13 +16,13 @@
         {% if title %}
         <b>{{title}}</b> <br>
         {% endif %}
-        {% if smallitem1 %}
+        {% if post.smallitem1 %}
         {{smallitem1}} <br>
         {% endif %}
-        {% if smallitem2 %}
+        {% if post.smallitem2 %}
         {{smallitem2}} <br>
         {% endif %}
-        {% if location %}
+        {% if post.location %}
         <i>{{location}}</i> <br>
         {% endif %}
         <br>
@@ -33,6 +33,4 @@
           (<a href=" {{ post.pdf }} ">pdf</a>)
         {% endif %}
         <br>
-    
- </article>
-</div>
+
