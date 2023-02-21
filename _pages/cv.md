@@ -9,11 +9,11 @@ redirect_from:
 
 <div style="background-color: #ebebeb" markdown=1>
 
-Education
+emsp Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+emsp emsp * B.S. in GitHub, GitHub University, 2012
+emsp emsp * M.S. in Jekyll, GitHub University, 2014
+emsp emsp * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 </div>
 
