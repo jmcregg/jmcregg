@@ -10,8 +10,8 @@ author_profile: true
 You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-<div style="background-color: #f3f2f2" markdown=1> 
-<div style="padding-top: 1px; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="background-color: #f5f4f4" markdown=1> 
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Postdoc
 ---
 <ol>
