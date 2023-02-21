@@ -7,8 +7,14 @@ redirect_from:
   - /resume
 ---
 
-<div style="background-color: #ebebeb">
-  asdf
+<div style="background-color: #ebebeb" markdown=1>
+
+Education
+======
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+
 </div>
 
 
