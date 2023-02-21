@@ -2,6 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+author.googlescholar: "https://scholar.google.com/citations?user=1h7u8K8AAAAJ&hl=en"
 author_profile: true
 ---
 
