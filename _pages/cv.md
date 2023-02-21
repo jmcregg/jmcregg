@@ -7,14 +7,17 @@ redirect_from:
   - /resume
 ---
 
-<div style="background-color: #edebeb" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
-## Education
-### PhD in Neuroscience
-Case Western Reserve University, 2018
-
-### BSE in Biomedical Engineering
-Michigan Technological University, 2010
+<div style="background-color: #f5f4f4" markdown=1> 
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+Education
+---
+<ol>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'education' %}
+     <li> {% include archive-single-cv.html %} </li>
+  {% endif %}
+{% endfor %}
+</ol>
 </div>
 </div>
 
