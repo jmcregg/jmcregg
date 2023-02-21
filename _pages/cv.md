@@ -8,21 +8,24 @@ redirect_from:
 ---
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="margin-left: 5%; margin-right: 5%;" markdown=1>
+<br>
 Education
 ---
 <ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'education' %}
-     {% include archive-single-cv.html %}
+     {% include archive-single-cv.html %} <br>
   {% endif %}
 {% endfor %}
 </ol>
+<br>
 </div>
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="margin-left: 5%; margin-right: 5%;" markdown=1>
+<br>
 Research Positions
 ---
 * Summer 2015: Research Assistant
@@ -34,6 +37,7 @@ Research Positions
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
+<br>
 </div>
 </div>
 
