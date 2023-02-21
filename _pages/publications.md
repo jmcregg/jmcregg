@@ -24,6 +24,8 @@ Postdoc
 </div>
 </div>
 
+<div style="background-color: #ffffff" markdown=1> 
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Graduate
 ---
 <ol>
@@ -33,7 +35,11 @@ Graduate
   {% endif %}
 {% endfor %}
 </ol>
+</div>
+</div>
 
+<div style="background-color: #f5f4f4" markdown=1> 
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Undergraduate
 ---
 <ol>
@@ -43,7 +49,11 @@ Undergraduate
   {% endif %}
 {% endfor %}
 </ol>
+</div>
+</div>
 
+<div style="background-color: #ffffff" markdown=1> 
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Patents
 ---
 <ol>
@@ -53,3 +63,5 @@ Patents
   {% endif %}
 {% endfor %}
 </ol>
+</div>
+</div>
