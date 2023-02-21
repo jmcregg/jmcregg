@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="background-color: #ebebeb" markdown=1> 
-<div style="height: 90%; padding-top: 3%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Education
 ======
 * PhD in Neuroscience, Case Western Reserve University, 2018
@@ -17,7 +17,7 @@ Education
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="height: 90%; padding-top: 3%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Work experience
 ======
 * Summer 2015: Research Assistant
@@ -33,7 +33,7 @@ Work experience
 </div>
 
 <div style="background-color: #ebebeb" markdown=1> 
-<div style="height: 90%; padding-top: 3%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Skills
 ======
 * Skill 1
@@ -46,7 +46,7 @@ Skills
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="height: 90%; padding-top: 3%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -56,7 +56,7 @@ Publications
 </div>
 
 <div style="background-color: #ebebeb" markdown=1> 
-<div style="height: 90%; padding-top: 3%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -66,7 +66,7 @@ Talks
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="height: 90%; padding-top: 3%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Teaching
 ======
   <ul>{% for post in site.teaching %}
@@ -76,7 +76,7 @@ Teaching
 </div>
   
 <div style="background-color: #ebebeb" markdown=1> 
-<div style="height: 90%; padding-top: 3%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
