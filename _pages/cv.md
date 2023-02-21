@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<div style="background-color: #ebebeb" markdown=1> 
+<div style="background-color: #edebeb" markdown=1> 
 <div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 ## Education
 ### PhD in Neuroscience
@@ -34,7 +34,7 @@ Work experience
 </div>
 </div>
 
-<div style="background-color: #ebebeb" markdown=1> 
+<div style="background-color: #edebeb" markdown=1> 
 <div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Skills
 ======
@@ -57,7 +57,7 @@ Publications
 </div>
 </div>
 
-<div style="background-color: #ebebeb" markdown=1> 
+<div style="background-color: #edebeb" markdown=1> 
 <div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Talks
 ======
@@ -77,7 +77,7 @@ Teaching
 </div>
 </div>
   
-<div style="background-color: #ebebeb" markdown=1> 
+<div style="background-color: #edebeb" markdown=1> 
 <div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Service and leadership
 ======
