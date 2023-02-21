@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="background-color: #ebebeb" markdown=1> 
-<div style="height: 80%; margin-left: 10%;">
+<div style="height: 90%; margin-left: 5%;" markdown=1>
 Education
 ======
 * Ph.D in Neuroscience, Case Western Reserve University, 2018
