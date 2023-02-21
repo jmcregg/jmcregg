@@ -8,13 +8,13 @@ redirect_from:
 ---
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Education
 ---
 <ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'education' %}
-     {% include archive-single-cv.html %} <br>
+     {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}
 </ol>
@@ -22,7 +22,7 @@ Education
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Research Positions
 ---
 * Summer 2015: Research Assistant
@@ -51,17 +51,17 @@ Skills
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 3%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Publications
 ======
   <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+    {% include archive-single.html %}
   {% endfor %}</ul>
 </div>
 </div>
 
 <div style="background-color: #edebeb" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -71,7 +71,7 @@ Talks
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Teaching
 ======
   <ul>{% for post in site.teaching %}
@@ -81,7 +81,7 @@ Teaching
 </div>
   
 <div style="background-color: #edebeb" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
