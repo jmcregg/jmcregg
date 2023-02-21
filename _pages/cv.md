@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="margin-left: 5%; margin-right: 5%;" markdown=1>
-<br>
+<div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Education
 ---
 <ol>
@@ -19,13 +18,11 @@ Education
   {% endif %}
 {% endfor %}
 </ol>
-<br>
 </div>
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="margin-left: 5%; margin-right: 5%;" markdown=1>
-<br>
+<div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Research Positions
 ---
 * Summer 2015: Research Assistant
@@ -42,9 +39,9 @@ Research Positions
 </div>
 
 <div style="background-color: #edebeb" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Skills
-======
+---
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
@@ -55,19 +52,19 @@ Skills
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single.html %}
-  {% endfor %}</ul>
+---
+  <ol>{% for post in site.publications reversed %}
+    {% include archive-single.html %} <br>
+  {% endfor %}</ol>
 </div>
 </div>
 
 <div style="background-color: #edebeb" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
-======
+---
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
@@ -75,9 +72,9 @@ Talks
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Teaching
-======
+---
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -85,7 +82,7 @@ Teaching
 </div>
   
 <div style="background-color: #edebeb" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
