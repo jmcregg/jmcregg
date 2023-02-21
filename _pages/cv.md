@@ -9,12 +9,11 @@ redirect_from:
 
 <div style="background-color: #ebebeb" markdown=1> 
 <div style="height: 90%; padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
-# Education
-======
-## PhD in Neuroscience
+## Education
+### PhD in Neuroscience
 Case Western Reserve University, 2018
 
-## BSE in Biomedical Engineering
+### BSE in Biomedical Engineering
 Michigan Technological University, 2010
 </div>
 </div>
