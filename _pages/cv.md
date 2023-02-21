@@ -7,14 +7,11 @@ redirect_from:
   - /resume
 ---
 
-<div style="background-color: #ebebeb" markdown=1>
-
-emsp Education
+<div style="background-color: #ebebeb; height: 80%; margin-left: 10%;" markdown=1>
+Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
+* Ph.D in Neuroscience, Case Western Reserve University, 2018
+* B.S. in Biomedical Engineering, Michigan Technological University, 2010
 </div>
 
 Work experience
@@ -30,7 +27,6 @@ Work experience
   * Supervisor: Professor Hub
 
 <div style="background-color: #ebebeb" markdown=1>
-
 Skills
 ======
 * Skill 1
@@ -39,7 +35,6 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
 </div>
 
 Publications
@@ -49,13 +44,11 @@ Publications
   {% endfor %}</ul>
 
 <div style="background-color: #ebebeb" markdown=1>
-
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
 </div>
   
 Teaching
@@ -65,9 +58,7 @@ Teaching
   {% endfor %}</ul>
   
 <div style="background-color: #ebebeb" markdown=1>
-  
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
-
 </div>
