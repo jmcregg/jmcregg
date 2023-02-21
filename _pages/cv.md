@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 Education
 ---
 <ol>
