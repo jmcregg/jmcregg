@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1px; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Education
 ---
 <ol>
@@ -22,7 +22,7 @@ Education
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Research Positions
 ---
 * Summer 2015: Research Assistant
@@ -51,7 +51,7 @@ Skills
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 2%; padding-bottom: 1%; margin-left: 3%; margin-right: 3%;" markdown=1>
+<div style="padding-top: 2%; padding-bottom: 3%; margin-left: 3%; margin-right: 3%;" markdown=1>
 Publications
 ======
   <ul>{% for post in site.publications %}
