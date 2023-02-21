@@ -12,9 +12,9 @@ redirect_from:
 Education
 ---
 <ol>
-{% for post in site.publications reversed %}
+{% for post in site.cv reversed %}
   {% if post.pubtype == 'education' %}
-     <li> {% include archive-single-cv.html %} </li>
+     {% include archive-single-cv.html %} <br>
   {% endif %}
 {% endfor %}
 </ol>
