@@ -19,20 +19,19 @@
         <b>{{title}}</b> <br>
         {% endif %}
         {% if post.smallitem1 %}
-        {{smallitem1}} <br>
+        {{post.smallitem1}} <br>
         {% endif %}
         {% if post.smallitem2 %}
-        {{smallitem2}} <br>
+        {{post.smallitem2}} <br>
         {% endif %}
         {% if post.location %}
-        <i>{{location}}</i> <br>
+        <i>{{post.location}}</i> <br>
         {% endif %}
-        <br>
-        {% if post.url %}
-        (<a href=" {{ post.url }} ">link</a>)
+        {% if post.link %}
+        (<a href=" {{ post.link }} ">link</a>)
         {% endif %}
         {% if post.pdf %}
-          (<a href=" {{ post.pdf }} ">pdf</a>)
+        (<a href=" {{ post.pdf }} ">pdf</a>)
         {% endif %}
         <br>
 
