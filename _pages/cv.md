@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -72,6 +72,8 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+</div>
+</div>
   
 <div style="background-color: #ebebeb" markdown=1> 
 <div style="height: 90%; padding-top: 3%; padding-bottom: 3%; margin-left: 3%; margin-right: 3%;" markdown=1>
