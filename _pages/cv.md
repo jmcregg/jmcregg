@@ -16,6 +16,9 @@ Education
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'education' %}
      {% include archive-single-cv.html %}
+     
+     ---
+     
   {% endif %}
 {% endfor %}
 </div>
