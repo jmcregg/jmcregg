@@ -30,7 +30,7 @@ Research Positions
   {% if post.pubtype == 'position' %}
      {% include archive-single-position-cv.html %}
   {% endif %}
-  
+<br>  
 {% endfor %}
 </div>
 </div>
