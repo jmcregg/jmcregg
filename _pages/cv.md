@@ -38,7 +38,7 @@ Research Positions
 </div>
 </div>
 
-<div style="background-color: #edebeb" markdown=1> 
+<div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Skills
 ---
@@ -61,13 +61,17 @@ Publications
 </div>
 </div>
 
-<div style="background-color: #edebeb" markdown=1> 
+<div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
-  <ul>{% for post in site.cv %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+<ol>
+{% for post in site.cv reversed %}
+  {% if post.pubtype == 'talk' %}
+     {% include archive-single-talk-cv.html %} <br>
+  {% endif %}
+{% endfor %}
+</ol>
 </div>
 </div>
 
@@ -75,13 +79,14 @@ Talks
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Teaching
 ---
+
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 </div>
 </div>
   
-<div style="background-color: #edebeb" markdown=1> 
+<div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Service and leadership
 ======
