@@ -19,12 +19,15 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b><br>
         {% endif %}
         {% if post.date2 %}
-        {{ post.date2 | default: "1900-01-01" | date: "%Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}}
+        {{ post.date2 | default: "1900-01-01" | date: "%Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b>
         {% else %}
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}}
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b>
+        {% endif %}
+        {% if post.smallitem1 %}
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}}
         {% endif %}
         {% if post.smallitem2 %}
-        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem2}}
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem2}}
         {% endif %}
         {% if post.link %}
         (<a href=" {{ post.link }} ">link</a>)
@@ -33,7 +36,7 @@
         (<a href=" {{ post.pdf }} ">pdf</a>)
         {% endif %}
         {% if post.location %}
-        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{post.location}}</i>
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{post.location}}</i>
         {% endif %}
 
       </article>
