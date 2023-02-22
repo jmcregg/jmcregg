@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Long version CV. _last updated Feb. 2023_ ([download](files/Cregg_JM_CV_Long.pdf))
+Long version CV. _last updated Feb. 2023_ ([download](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf))
 
 <div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
