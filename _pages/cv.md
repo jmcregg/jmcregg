@@ -49,7 +49,7 @@ Selected Publications
   
 Full list of [Publications](https://jmcregg.github.io/publications/).
 
-_Bibliometric Summary_
+_Bibliometric Summary_<br>
 Web of Science: >1600 citations, h-index 11 ([link](https://www.webofscience.com/wos/author/record/3938830)).<br>
 Google scholar: >2400 citations, h-index 14 ([link](https://scholar.google.com/citations?user=1h7u8K8AAAAJ&hl=en)).
 </div>
