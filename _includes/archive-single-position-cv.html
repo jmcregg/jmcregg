@@ -14,7 +14,7 @@
     
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
         
-        {{ post.date | default: "1900-01-01" | date: "%Y" }}-
+        {{ post.date | default: "1900-01-01" | date: "%Y" }} -
         {% if post.date2 %}
         {{ post.date2 | default: "1900-01-01" | date: "%Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b>
         {% else %}
