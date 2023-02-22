@@ -15,11 +15,8 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
         
         {{ post.date | default: "1900-01-01" | date: "%Y" }}
-        {% if title %}
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b>
-        {% endif %}
         {% if post.smallitem1 %}
-        &nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}} 
+        {{post.smallitem1}} 
         {% endif %}
         {% if post.smallitem2 %}
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem2}}
