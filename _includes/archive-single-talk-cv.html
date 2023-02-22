@@ -16,7 +16,7 @@
         
         {{ post.date | default: "1900-01-01" | date: "%Y" }}
         {% if post.smallitem1 %}
-        {{post.smallitem1}} 
+        &nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}} 
         {% endif %}
         {% if post.smallitem2 %}
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem2}}
