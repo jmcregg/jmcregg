@@ -15,7 +15,7 @@ Education
 ---
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'education' %}
-     {% include archive-single-cv.html %} <br>
+     {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}
 </div>
@@ -28,7 +28,7 @@ Research Positions
 <ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'position' %}
-     {% include archive-single-position-cv.html %} <br>
+     {% include archive-single-position-cv.html %}
   {% endif %}
 {% endfor %}
 </ol>
@@ -57,13 +57,12 @@ Google scholar: >2400 citations, h-index 14 ([link](https://scholar.google.com/c
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Funding
 ---
-<ol>
+
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'funding' %}
-     {% include archive-single-position-cv.html %} <br>
+     {% include archive-single-position-cv.html %}
   {% endif %}
 {% endfor %}
-</ol>
 </div>
 </div>
 
@@ -71,9 +70,7 @@ Funding
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 Awards
 ---
-<ol>
 
-</ol>
 </div>
 </div>
 
@@ -81,13 +78,11 @@ Awards
 <div style="padding-top: 0.1pt; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
-<ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'talk' %}
      {% include archive-single-talk-cv.html %}
   {% endif %}
 {% endfor %}
-</ol>
 </div>
 </div>
 
