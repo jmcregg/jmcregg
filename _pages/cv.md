@@ -25,11 +25,13 @@ Education
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Research Positions
 ---
+<ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'position' %}
      {% include archive-single-position-cv.html %} <br>
   {% endif %}
 {% endfor %}
+</ol>
 </div>
 </div>
 
