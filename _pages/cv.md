@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Long version CV. _last updated Feb. 2023_ ([download](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf))
+Long version CV. _last updated Feb. 2023_ ([download](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"})
 
 <div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
@@ -47,7 +47,7 @@ Selected Publications
   {% endif %}
   {% endfor %}</ol>
   
-Full list of [Publications](https://jmcregg.github.io/publications/){:target="_blank"}
+Full list of [Publications](https://jmcregg.github.io/publications/)
 
 _Bibliometric Summary_<br>
 Web of Science: >1600 citations, h-index 11 ([link](https://www.webofscience.com/wos/author/record/3938830){:target="_blank"})<br>
