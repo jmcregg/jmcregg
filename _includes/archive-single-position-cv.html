@@ -16,10 +16,10 @@
         
         {{ post.date | default: "1900-01-01" | date: "%Y" }}-
         {% if title %}
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b><br>
         {% endif %}
         {% if post.date2 %}
-        {{ post.date2 | default: "1900-01-01" | date: "%Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}}
+        {{ post.date2 | default: "1900-01-01" | date: "%Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}}
         {% else %}
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}}
         {% endif %}
