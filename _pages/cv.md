@@ -60,7 +60,11 @@ Google scholar: >2400 citations, h-index 14 ([link](https://scholar.google.com/c
 Funding
 ---
 <ol>
-
+{% for post in site.cv reversed %}
+  {% if post.pubtype == 'funding' %}
+     {% include archive-single-position-cv.html %} <br>
+  {% endif %}
+{% endfor %}
 </ol>
 </div>
 </div>
