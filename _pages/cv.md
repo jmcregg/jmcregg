@@ -15,7 +15,7 @@ Education
 ---
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'education' %}
-     {% include archive-single-cv.html %} <br>
+     {% include archive-single-cv.html %}
   {% endif %}
 {% endfor %}
 </div>
@@ -27,7 +27,7 @@ Research Positions
 ---
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'position' %}
-     {% include archive-single-position-cv.html %} <br>
+     {% include archive-single-position-cv.html %}
   {% endif %}
 {% endfor %}
 </div>
@@ -58,7 +58,7 @@ Funding
 
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'funding' %}
-     {% include archive-single-position-cv.html %} <br>
+     {% include archive-single-position-cv.html %}
   {% endif %}
 {% endfor %}
 </div>
