@@ -41,16 +41,16 @@ Research Positions
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Selected Publications
 ---
-  <ol>{% for post in site.cv reversed %}
+  <ol>{% for post in site.publications reversed %}
       {% if post.special2 %}
      <li> {% include archive-single.html %} </li>
   {% endif %}
   {% endfor %}</ol>
   
-Full list of ([Publications](https://jmcregg.github.io/publications/)).
+Full list of [Publications](https://jmcregg.github.io/publications/).
 
 _Bibliometric Summary_
-Web of Science: >1600 citations, h-index 11 ([link](https://www.webofscience.com/wos/author/record/3938830)).
+Web of Science: >1600 citations, h-index 11 ([link](https://www.webofscience.com/wos/author/record/3938830)).<br>
 Google scholar: >2400 citations, h-index 14 ([link](https://scholar.google.com/citations?user=1h7u8K8AAAAJ&hl=en)).
 </div>
 </div>
