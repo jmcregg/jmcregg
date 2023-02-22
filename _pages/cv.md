@@ -17,6 +17,7 @@ Education
   {% if post.pubtype == 'education' %}
      {% include archive-single-cv.html %}
   {% endif %}
+  
 {% endfor %}
 </div>
 </div>
@@ -29,6 +30,7 @@ Research Positions
   {% if post.pubtype == 'position' %}
      {% include archive-single-position-cv.html %}
   {% endif %}
+  
 {% endfor %}
 </div>
 </div>
