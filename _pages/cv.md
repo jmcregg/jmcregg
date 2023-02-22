@@ -94,7 +94,7 @@ Teaching
 <div style="background-color: #FFFFFF" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Service and leadership
-======
+---
 * Currently signed in to 43 different slack teams
 </div>
 </div>
