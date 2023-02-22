@@ -25,22 +25,17 @@ Education
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Research Positions
 ---
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-<br>
+{% for post in site.cv reversed %}
+  {% if post.pubtype == 'position' %}
+     {% include archive-single-position-cv.html %} <br>
+  {% endif %}
+{% endfor %}
 </div>
 </div>
 
 <div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
-Skills
+Awards
 ---
 * Skill 1
 * Skill 2
