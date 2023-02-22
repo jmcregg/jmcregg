@@ -74,7 +74,7 @@ Talks
 <ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'talk' %}
-     {% include archive-single-talk-cv.html %} <br>
+     {% include archive-single-talk-cv.html %}
   {% endif %}
 {% endfor %}
 </ol>
