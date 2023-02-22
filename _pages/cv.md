@@ -68,7 +68,7 @@ Awards
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1pt; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
 <ol>
@@ -82,7 +82,7 @@ Talks
 </div>
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Teaching
 ---
   <ul>{% for post in site.teaching %}
