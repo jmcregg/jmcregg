@@ -16,9 +16,9 @@
         
         {{ post.date | default: "1900-01-01" | date: "%Y" }} -
         {% if post.date2 %}
-        {{ post.date2 | default: "1900-01-01" | date: "%Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;<b>{{title}}</b>
+        {{ post.date2 | default: "1900-01-01" | date: "%Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b>
         {% else %}
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>{{title}}</b>
         {% endif %}
         {% if post.smallitem1 %}
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{post.smallitem1}}
