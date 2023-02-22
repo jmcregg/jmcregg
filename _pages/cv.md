@@ -39,11 +39,19 @@ Research Positions
 
 <div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
-Publications
+Selected Publications
 ---
-  <ol>{% for post in site.publications reversed %}
-    {% include archive-single.html %} <br>
+  <ol>{% for post in site.cv reversed %}
+      {% if post.special2 %}
+     <li> {% include archive-single.html %} </li>
+  {% endif %}
   {% endfor %}</ol>
+  
+Full list of ([Publications](https://jmcregg.github.io/publications/)).
+
+_Bibliometric Summary_
+Web of Science: >1600 citations, h-index 11 ([link](https://www.webofscience.com/wos/author/record/3938830)).
+Google scholar: >2400 citations, h-index 14 ([link](https://scholar.google.com/citations?user=1h7u8K8AAAAJ&hl=en)).
 </div>
 </div>
 
@@ -95,6 +103,5 @@ Teaching
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Service and leadership
 ---
-* Currently signed in to 43 different slack teams
 </div>
 </div>
