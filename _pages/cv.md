@@ -13,13 +13,11 @@ Long version CV. _last updated Feb. 2023_ ([download](https://jmcregg.github.io/
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 Education
 ---
-<ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'education' %}
      {% include archive-single-cv.html %} <br>
   {% endif %}
 {% endfor %}
-</ol>
 </div>
 </div>
 
