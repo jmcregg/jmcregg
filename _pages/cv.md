@@ -27,33 +27,17 @@ Education
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Research Positions
 ---
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-<br>
+<ol>
+{% for post in site.cv reversed %}
+  {% if post.pubtype == 'position' %}
+     {% include archive-single-position-cv.html %} <br>
+  {% endif %}
+{% endfor %}
+</ol>
 </div>
 </div>
 
-<div style="background-color: #edebeb" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
-Skills
----
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-</div>
-</div>
-
-<div style="background-color: #FFFFFF" markdown=1> 
+<div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Publications
 ---
@@ -63,15 +47,37 @@ Publications
 </div>
 </div>
 
+<div style="background-color: #FFFFFF" markdown=1> 
+<div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
+Funding
+---
+<ol>
+
+</ol>
+</div>
+</div>
+
+<div style="background-color: #f5f4f4" markdown=1> 
+<div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
+Awards
+---
+<ol>
+
+</ol>
+</div>
+</div>
+
 <div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
+<ol>
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'talk' %}
      {% include archive-single-talk-cv.html %} <br>
   {% endif %}
 {% endfor %}
+</ol>
 </div>
 </div>
 
