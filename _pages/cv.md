@@ -65,7 +65,7 @@ Publications
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.cv %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 </div>
