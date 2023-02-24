@@ -32,6 +32,12 @@
         {% if post.pdf %}
         (<a href=" {{ post.pdf }} ">pdf</a>)
         {% endif %}
+        {% if post.syllabus %}
+        (<a href=" {{ post.syllabus }} ">syllabus</a>)
+        {% endif %}
+        {% if post.slides %}
+        (<a href=" {{ post.slides }} ">slides</a>)
+        {% endif %}
         {% if post.location %}
         <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{{post.location}}</i>
         {% endif %}
