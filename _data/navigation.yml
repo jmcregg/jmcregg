@@ -3,18 +3,18 @@ main:
   
   - title: "Research"
     url: /research/
-  
-  - title: "Publications"
-    url: /publications/  
 
   - title: "Teaching"
     url: /teaching/    
     
   - title: "DEI"
     url: /dei/
-        
-  - title: "Fun"
-    url: /fun/
+    
+  - title: "Publications"
+    url: /publications/  
     
   - title: "CV"
     url: /cv/
+      
+  - title: "Lab Fun"
+    url: /fun/
