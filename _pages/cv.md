@@ -65,7 +65,7 @@ Funding
 </div>
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Mentoring
 ---
 {% for post in site.cv reversed %}
@@ -77,7 +77,7 @@ Mentoring
 </div>
 
 <div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 0.1pt; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1pt; padding-bottom: 4%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Awards
 ---
 {% for post in site.cv reversed %}
@@ -89,7 +89,7 @@ Awards
 </div>
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1pt; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1pt; padding-bottom: 4%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
 {% for post in site.cv reversed %}
