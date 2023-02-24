@@ -11,6 +11,7 @@ author_profile: true
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 University of Copenhagen
 ---
+Copenhagen, Denmark
 {% for post in site.teaching reversed %}
   {% if post.pubtype == 'ku' %}
      {% include archive-single-teaching.html %}
@@ -23,6 +24,7 @@ University of Copenhagen
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Case Western Reserve University
 ---
+Cleveland, OH
 {% for post in site.teaching reversed %}
   {% if post.pubtype == 'cwru' %}
      {% include archive-single-teaching.html %}
