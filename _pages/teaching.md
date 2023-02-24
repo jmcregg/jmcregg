@@ -13,7 +13,7 @@ University of Copenhagen
 ---
 {% for post in site.teaching reversed %}
   {% if post.pubtype == 'ku' %}
-     {% include archive-single-position-cv.html %}
+     {% include archive-single-teaching.html %}
   {% endif %}
 {% endfor %}
 </div>
@@ -25,7 +25,7 @@ Case Western Reserve University
 ---
 {% for post in site.teaching reversed %}
   {% if post.pubtype == 'cwru' %}
-     {% include archive-single-position-cv.html %}
+     {% include archive-single-teaching.html %}
   {% endif %}
 {% endfor %}
 </div>
