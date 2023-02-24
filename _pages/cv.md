@@ -55,7 +55,6 @@ Google Scholar: >2400 citations, h-index 14 ([link](https://scholar.google.com/c
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Funding
 ---
-
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'funding' %}
      {% include archive-single-position-cv.html %}
