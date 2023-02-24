@@ -13,7 +13,7 @@ University of Copenhagen
 ---
 {% for post in site.teaching reversed %}
   {% if post.pubtype == 'ku' %}
-     {% include archive-single-cv.html %} 
+     {% include archive-single-position-cv.html %}
   {% endif %}
 {% endfor %}
 </div>
