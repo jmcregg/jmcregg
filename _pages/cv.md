@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Short CV"
+title: "Abbreviated CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -69,7 +69,7 @@ Mentoring
 ---
 {% for post in site.cv reversed %}
   {% if post.pubtype == 'mentor' %}
-     {% include archive-single-position-cv.html %}
+     {% include archive-single-mentor-cv.html %}
   {% endif %}
 {% endfor %}
 </div>
