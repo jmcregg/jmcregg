@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can download my full CV [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}. (_last updated Feb. 2023_)
+You can download my full CV [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"} (_last updated Feb. 2023_)
 
 <div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
@@ -65,7 +65,19 @@ Funding
 </div>
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+Mentoring
+---
+{% for post in site.cv reversed %}
+  {% if post.pubtype == 'mentor' %}
+     {% include archive-single-position-cv.html %}
+  {% endif %}
+{% endfor %}
+</div>
+</div>
+
+<div style="background-color: #FFFFFF" markdown=1> 
+<div style="padding-top: 0.1pt; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Awards
 ---
 {% for post in site.cv reversed %}
@@ -76,7 +88,7 @@ Awards
 </div>
 </div>
 
-<div style="background-color: #FFFFFF" markdown=1> 
+<div style="background-color: #f5f4f4" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
@@ -85,22 +97,5 @@ Talks
      {% include archive-single-talk-cv.html %}
   {% endif %}
 {% endfor %}
-</div>
-</div>
-
-<div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
-Teaching
----
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-</div>
-</div>
-  
-<div style="background-color: #FFFFFF" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
-Service and leadership
----
 </div>
 </div>
