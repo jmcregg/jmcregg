@@ -68,7 +68,11 @@ Funding
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 Awards
 ---
-
+{% for post in site.cv reversed %}
+  {% if post.pubtype == 'award' %}
+     {% include archive-single-talk-cv.html %}
+  {% endif %}
+{% endfor %}
 </div>
 </div>
 
