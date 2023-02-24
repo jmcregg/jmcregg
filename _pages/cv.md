@@ -7,10 +7,10 @@ redirect_from:
   - /resume
 ---
 
-You can download my full CV ([here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}). _last updated Feb. 2023_
+You can download my full CV [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}. (_last updated Feb. 2023_)
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Education
 ---
 {% for post in site.cv reversed %}
@@ -65,7 +65,7 @@ Funding
 </div>
 
 <div style="background-color: #f5f4f4" markdown=1> 
-<div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Awards
 ---
 {% for post in site.cv reversed %}
