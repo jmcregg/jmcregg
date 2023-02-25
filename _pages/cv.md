@@ -9,7 +9,7 @@ redirect_from:
 
 Download full CV [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"} (_last updated Feb. 2023_)
 
-<div style="background-color: #f5f4f4" markdown=1> 
+<div style="background-color: #f2f3f3" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Education
 ---
@@ -33,7 +33,7 @@ Research Positions
 </div>
 </div>
 
-<div style="background-color: #f5f4f4" markdown=1> 
+<div style="background-color: #f2f3f3" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Selected Publications
 ---
@@ -63,7 +63,7 @@ Funding
 </div>
 </div>
 
-<div style="background-color: #f5f4f4" markdown=1> 
+<div style="background-color: #f2f3f3" markdown=1> 
 <div style="padding-top: 0.1px; padding-bottom: 4%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Mentoring
 ---
@@ -87,7 +87,7 @@ Awards
 </div>
 </div>
 
-<div style="background-color: #f5f4f4" markdown=1> 
+<div style="background-color: #f2f3f3" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 4%; margin-left: 5%; margin-right: 5%;" markdown=1>
 Talks
 ---
