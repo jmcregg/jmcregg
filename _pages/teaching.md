@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<div style="background-color: #f5f4f4" markdown=1> 
+<div style="background-color: #f2f3f3" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 University of Copenhagen
 ---
