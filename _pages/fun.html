@@ -14,7 +14,11 @@ customjs:
 <style>
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
-img {vertical-align: middle;}
+img {vertical-align: middle;
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;
+  }
 
 /* Slideshow container */
 .slideshow-container {
@@ -24,10 +28,28 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev {
   cursor: pointer;
   position: absolute;
   top: 50%;
+  left: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Next & previous buttons */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right:20%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -57,27 +79,27 @@ img {vertical-align: middle;}
 <p>Lab Lunch: Celebrating Ole's KFJ Preclinical Prize</p>
 <div class="slideshow-container">
   <div class="mySlides1">
-    <img src="/images/IMG2892.JPG" style="width:60%">
+    <img src="/images/IMG2892.JPG" style="width:60%; border-radius: 8px">
   </div>
 
   <div class="mySlides1">
-    <img src="/images/IMG2851.JPG" style="width:60%">
+    <img src="/images/IMG2851.JPG" style="width:60%; border-radius: 8px">
   </div>
 
   <div class="mySlides1">
-    <img src="/images/IMG2829.JPG" style="width:60%">
+    <img src="/images/IMG2829.JPG" style="width:60%; border-radius: 8px">
   </div>
   
   <div class="mySlides1">
-    <img src="/images/IMG2904.JPG" style="width:60%">
+    <img src="/images/IMG2904.JPG" style="width:60%; border-radius: 8px">
   </div>
   
   <div class="mySlides1">
-    <img src="/images/IMG2914.JPG" style="width:60%">
+    <img src="/images/IMG2914.JPG" style="width:60%; border-radius: 8px">
   </div>
   
   <div class="mySlides1">
-    <img src="/images/IMG2945.JPG" style="width:60%">
+    <img src="/images/IMG2945.JPG" style="width:60%; border-radius: 8px">
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
@@ -87,15 +109,15 @@ img {vertical-align: middle;}
 <p>Slideshow 2:</p>
 <div class="slideshow-container">
   <div class="mySlides2">
-    <img src="/images/IMG2914.JPG" style="width:60%">
+    <img src="/images/IMG2914.JPG" style="width:60%; border-radius: 8px">
   </div>
 
   <div class="mySlides2">
-    <img src="/images/IMG2904.JPG" style="width:60%">
+    <img src="/images/IMG2904.JPG" style="width:60%; border-radius: 8px">
   </div>
 
   <div class="mySlides2">
-    <img src="/images/IMG2945.JPG" style="width:60%">
+    <img src="/images/IMG2945.JPG" style="width:60%; border-radius: 8px">
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
