@@ -5,7 +5,6 @@ permalink: /fun/
 author_profile: true
 customjs:
  - http://code.jquery.com/jquery-1.4.2.min.js
- - https://jmcregg.github.io/slideshow.js
 ---
 
 <html>
@@ -57,7 +56,7 @@ img {vertical-align: middle;}
 <p>Lab Lunch: Celebrating Ole's KFJ Preclinical Prize</p>
 <div class="slideshow-container">
   <div class="mySlides1">
-    <img src="/images/IMG2892.JPG" style="width:100%">
+    <img src="/images/IMG2892.JPG" style="width:60%">
   </div>
 
   <div class="mySlides1">
@@ -103,7 +102,8 @@ img {vertical-align: middle;}
 </div>
 
 ```js
-let slideIndex = [1,1];
+{
+ let slideIndex = [1,1];
 let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
 showSlides(1, 1);
@@ -122,6 +122,7 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+ }
 ```
 
 
