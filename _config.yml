@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jared M Cregg"
 title_separator          : "-"
 name                     : &name "Jared M Cregg"
-description              : &description "Neuroscientist studying motor control. Postdoc in Ole Kiehn's Lab at the University of Copenhagen. "
+description              : &description "Neuroscientist studying motor control. Postdoc in Ole Kiehn's Lab at the University of Copenhagen."
 url                      : https://jmcregg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jmcregg.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jared M Cregg"
   avatar           : "profile.png"
-  bio              : "Neuroscientist studying motor control. Postdoctoral Fellow in Ole Kiehn Lab at the University of Copenhagen."
+  bio              : "Neuroscientist studying motor control. Postdoc in Ole Kiehn's Lab at the University of Copenhagen."
   location         : "Copenhagen, Denmark"
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Jared%20Cregg&sort=date"
