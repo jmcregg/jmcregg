@@ -67,6 +67,11 @@ img {vertical-align: middle;
   color: black;
 }
 </style>
+
+   {% if site.google_analytics and jekyll.environment == 'production' %}
+   {% include analytics.html %}
+   {% endif %}
+
 </head>
 <body>
 
