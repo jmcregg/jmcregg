@@ -7,6 +7,11 @@ author_profile: true
 ---
 
 <html>
+ <head>
+   {% if site.google_analytics and jekyll.environment == 'production' %}
+   {% include analytics.html %}
+   {% endif %}
+ </head>
 <body>
 
 <h2 align = "center">Brainstem Circuits for Motor Control</h2>
