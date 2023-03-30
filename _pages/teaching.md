@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
 <div style="background-color: #f2f3f3" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 0.1pt; margin-left: 5%; margin-right: 5%;" markdown=1>
 University of Copenhagen
