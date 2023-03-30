@@ -7,6 +7,10 @@ redirect_from:
   - /resume
 ---
 
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
 Download full CV [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}{:style="text-decoration: none"} (_last updated Feb. 2023_)
 
 <div style="background-color: #f2f3f3" markdown=1> 
