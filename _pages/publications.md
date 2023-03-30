@@ -4,11 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<head>
-   {% if site.google_analytics and jekyll.environment == 'production' %}
-   {% include analytics.html %}
-   {% endif %}
- </head>
+
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 
 {% include base_path %}
 {% if author.googlescholar %}
