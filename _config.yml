@@ -70,13 +70,8 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-
+# Google Analytics
+google_analytics: G-RQK422EPGF
 
 # Site Author
 author:
