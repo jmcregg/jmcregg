@@ -16,7 +16,7 @@ author_profile: true
 <body>
   
 <br>
-<center><img src="/images/diversity_resp.jpg" style="width:90%; border-radius: 8px"></center>
+<center><img src="/images/diversity_resp.jpg" style="width:60%; border-radius: 8px"></center>
 <br>
   
 <p align = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor tortor et turpis sodales, ut porttitor sem interdum. Donec egestas dignissim nunc feugiat blandit. Duis ornare tortor sit amet velit tempor ullamcorper. Aenean non convallis est, nec suscipit nisl. Sed leo dolor, ultrices eu nisl sed, placerat convallis ipsum. Vivamus sapien nisl, hendrerit vitae nunc nec, pulvinar egestas tellus. Vivamus at diam at ligula dictum vulputate id ac risus.</p>
