@@ -15,9 +15,9 @@ author_profile: true
 </head>
 <body>
   
-<br><br>
-<center><img src="/images/diversity_resp.jpg" style="width:60%; border-radius: 8px"></center>
-<br><br>
+<br>
+<center><img src="/images/diversity_resp.jpg" style="width:90%; border-radius: 8px"></center>
+<br>
   
 <br>
   <p><i>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</i> - John Smith</p>
