@@ -23,7 +23,10 @@ author_profile: true
 
 <p align = "justify">Nullam et varius nisi. Vestibulum faucibus feugiat lectus, nec dictum nisl finibus ac. Duis non venenatis felis. Suspendisse gravida est felis, nec luctus enim elementum sed. In consectetur vestibulum neque, nec posuere nunc accumsan ut. Sed sollicitudin leo tincidunt dolor porta, eget dignissim leo tincidunt. Suspendisse in nisi vel est rhoncus tristique. In et est viverra nisi auctor vehicula. Integer mi est, vulputate vitae maximus ultrices, cursus in metus.</p>
   
-  <h2>Resources</h2>
+<h3>Resources</h3>
+  <a href="https://www.alba.network/" style="text-decoration: none" target="_blank">ALBA Network</a>
+  <br><a href="https://danwise.org/" style="text-decoration: none" target="_blank">Danish Society for Women in Science (DANWISE)</a>
+  <br><a href="https://nrmnet.net/" style="text-decoration: none" target="_blank">National Research Mentoring Network (NRMN)</a>
 
 </body>
 </html>
