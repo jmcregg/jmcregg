@@ -39,7 +39,7 @@
         (<a href=" {{ post.paperurl }} " style="text-decoration: none" target="_blank">link</a>)
         {% endif %}
         {% if post.pdf %}
-          ([pdf](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}{:style="text-decoration: none"})
+          [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}{:style="text-decoration: none"}
           (<a href=" {{ post.pdf }} " style="text-decoration: none" target="_blank">pdf</a>)
         {% endif %}
         <br>
