@@ -43,7 +43,7 @@ Selected Publications
 ---
   <ol>{% for post in site.publications reversed %}
       {% if post.special2 %}
-     <li> {% include archive-single.md %} </li>
+     <li> {% include archive-single.html %} </li>
   {% endif %}
   {% endfor %}</ol>
   
