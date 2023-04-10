@@ -51,7 +51,7 @@ Full list of [Publications](https://jmcregg.github.io/publications/){:style="tex
 
 _Bibliometric Summary_<br>
 Web of Science: >1600 citations, h-index 11 ([link](https://www.webofscience.com/wos/author/record/3938830){:target="_blank"}{:style="text-decoration: none"})<br>
-Google Scholar: >2500 citations, h-index 14 ([link](https://scholar.google.com/citations?user=1h7u8K8AAAAJ&hl=en){:target="_blank"}{:style="text-decoration: none"})
+Google Scholar: >2500 citations, h-index 15 ([link](https://scholar.google.com/citations?user=1h7u8K8AAAAJ&hl=en){:target="_blank"}{:style="text-decoration: none"})
 </div>
 </div>
 
