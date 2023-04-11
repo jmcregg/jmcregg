@@ -3,15 +3,110 @@ layout: archive
 title: "Research"
 permalink: /research2/
 author_profile: true
-
+customjs:
+ - http://code.jquery.com/jquery-1.4.2.min.js
+ - https://jmcregg.github.io/modal.js
 ---
 
 <html>
  <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
    {% if site.google_analytics and jekyll.environment == 'production' %}
    {% include analytics.html %}
    {% endif %}
- </head>
+  <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg, #myImg2, #myImg3 {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+</head>
 <body>
 
 <h2 align = "center">Brainstem Circuits for Motor Control</h2>
@@ -19,15 +114,14 @@ author_profile: true
   
 <h2>Brainstem Circuits for 3D Movements</h2>
   <figure style="width:27%; float: left; margin: 14px 20px 40px 0">
-  <img src="/images/3d_movements2.jpg" style="border-radius: 8px">
+  <img id="myImg" src="/images/3d_movements2.jpg" alt="Vector art adapted from Kravitz/SciDraw">
   <figcaption><i>Vector art adapted from Kravitz/SciDraw</i></figcaption>
 </figure>
 <p align = "justify">Movement about the three cardinal axes (yaw, pitch, and roll) is essential for orienting the head and body in 3D space. While our previous work has elucidated brainstem yaw circuits in anatomical, molecular, and functional detail (<a href="https://jmcregg.github.io/files/Cregg_NN_2020.pdf" style="text-decoration: none" target="_blank"><i>Nat Neurosci</i>, 2020</a>), there is little information regarding the modalities of pitch and roll. These latter functions are crucial for orienting the head toward objects of interest, but also for adjusting mouse body posture in ethologically relevant contexts, such as rearing, self-righting, and balance. To reveal brainstem circuits that execute pitch and roll commands, we are dissecting input/output connectivity of the vestibular nuclei, which are essential for these functions.</p>
   
 <h2>Brainstem Circuits for Locomotion</h2>
 <figure style="width:27%; float: left; margin: 14px 20px 0 0">
-  <a href="https://www.nature.com/neuro/volumes/23/issues/6" target="_blank">
-  <img src="/images/nat_neuro.jpg" style="border-radius: 8px">
+  <img id="myImg2" src="/images/nat_neuro.jpg" alt="Cover image by Gil Costa">
   </a>
   <figcaption><i>Cover image by Gil Costa</i></figcaption>
 </figure>
@@ -37,7 +131,7 @@ author_profile: true
   
 <h2>Brainstem Circuits for Respiration</h2>
   <figure style="width:27%; float: left; margin: 14px 20px 0 0">
-  <img src="/images/diaphragm.jpg" style="border-radius: 8px">
+  <img id="myImg3" src="/images/diaphragm.jpg" alt="Text art by Tagxedo">
   <figcaption><i>Text art by Tagxedo</i></figcaption>
 </figure>
 <p align = "justify">Respiration is unique amongst the behavioral repertoire in that it is continuously active throughout postnatal life. Indeed, humans breathe ~20,000 times per day and hundreds of millions of times over the average lifespan. In mammals, respiration is orchestrated by a distributed brainstem network, where a medullary nucleus termed the preBötzinger complex is critical for generating the respiratory rhythm.</p>
