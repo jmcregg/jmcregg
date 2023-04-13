@@ -1,14 +1,14 @@
 function enlargeImg() {
-   var element = document.getElementById("myTable");
+   var element = document.getElementById("TableOne");
    element.classList.toggle("largetable");
 }
 
 function enlargeImg2() {
-   var element2 = document.getElementById("myTable2");
-   element2.classList.toggle("largeimage");
+   var element = document.getElementById("TableTwo");
+   element.classList.toggle("largetable");
 }
 
 function enlargeImg3() {
-   var element3 = document.getElementById("myTable3");
-   element3.classList.toggle("largeimage");
+   var element = document.getElementById("TableThree");
+   element.classList.toggle("largetable");
 }
