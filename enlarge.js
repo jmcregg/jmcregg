@@ -1,4 +1,3 @@
-
 function enlargeImg() {
    var element = document.getElementById("myImg");
    element.classList.toggle("largeimage");
