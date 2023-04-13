@@ -1,4 +1,3 @@
-<script>
 
 function enlargeImg() {
    var element = document.getElementById("myImg");
@@ -14,5 +13,3 @@ function enlargeImg3() {
    var element = document.getElementById("myImg3");
    element.classList.toggle("largeimage");
 }
-
-</script>
