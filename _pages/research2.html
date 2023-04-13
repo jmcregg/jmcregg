@@ -17,95 +17,24 @@ customjs:
   <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 
-#myImg, #myImg2, #myImg3 {
+.smallimage {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
+  width: 27%;
+}
+   
+.largeimage {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 54%;
 }
 
 #myImg:hover {opacity: 0.7;}
 #myImg2:hover {opacity: 0.7;}
 #myImg3:hover {opacity: 0.7;}
 
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 250px; /* Location of the box */
-  left: 400px;
-  top: 250px;
-  width: 75%; /* Full width */
-  height: 75%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  font-style: italic;
-  color: #ffffff;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
 </style>
 </head>
 <body>
@@ -114,15 +43,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <p align = "justify">Motor circuits act as the basis of behavior. Motor control is organized at different echelons of the mammalian nervous system. In particular, the brainstem acts as a crucial gate between higher brain functions and execution of movements by spinal motor networks. Thus, the brainstem represents a crucial bottleneck in sensorimotor processing. Our research focuses on revealing the functional organization of brainstem motor circuits.</p>
   
 <h2>Brainstem Circuits for 3D Movements</h2>
-  <figure style="width:27%; float: left; margin: 14px 20px 40px 0">
-  <img id="myImg" src="/images/3d_movements2.jpg" alt="Vector art adapted from Kravitz/SciDraw">
+  <figure style="float: left; margin: 14px 20px 40px 0">
+  <img id="myImg" src="/images/3d_movements2.jpg" class="smallimage" onclick = "enlargeImg()">
   <figcaption><i>Vector art adapted from Kravitz/SciDraw</i></figcaption>
 </figure>
 <p align = "justify">Movement about the three cardinal axes (yaw, pitch, and roll) is essential for orienting the head and body in 3D space. While our previous work has elucidated brainstem yaw circuits in anatomical, molecular, and functional detail (<a href="https://jmcregg.github.io/files/Cregg_NN_2020.pdf" style="text-decoration: none" target="_blank"><i>Nat Neurosci</i>, 2020</a>), there is little information regarding the modalities of pitch and roll. These latter functions are crucial for orienting the head toward objects of interest, but also for adjusting mouse body posture in ethologically relevant contexts, such as rearing, self-righting, and balance. To reveal brainstem circuits that execute pitch and roll commands, we are dissecting input/output connectivity of the vestibular nuclei, which are essential for these functions.</p>
   
 <h2>Brainstem Circuits for Locomotion</h2>
 <figure style="width:27%; float: left; margin: 14px 20px 0 0">
-  <img id="myImg2" src="/images/nat_neuro.jpg" alt="Cover image by Gil Costa">
+  <img id="myImg2" src="/images/nat_neuro.jpg" class="smallimage" onclick = "enlargeImg2()">
   <figcaption><i>Cover image by Gil Costa</i></figcaption>
 </figure>
 <p align = "justify">Locomotion is a universal modality of movement that allows translation of the body from point to point. Locomotion requires precise temporal coordination between muscle groups, which is largely accomplished by rhythmic networks within the spinal cord itself. Executive spinal networks receive commands from the brainstem which regulate distinct features of locomotion, including initiation and speed (<a href="https://jmcregg.github.io/files/ARN_2022.pdf" style="text-decoration: none" target="_blank"><i>Ann Rev Neurosci</i>, 2022</a>).</p>
@@ -131,30 +60,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
   
 <h2>Brainstem Circuits for Respiration</h2>
   <figure style="width:27%; float: left; margin: 14px 20px 0 0">
-  <img id="myImg3" src="/images/diaphragm.jpg" alt="Text art by Tagxedo">
+  <img id="myImg3" src="/images/diaphragm.jpg" class="smallimage" onclick = "enlargeImg3()">
   <figcaption><i>Text art by Tagxedo</i></figcaption>
 </figure>
 <p align = "justify">Respiration is unique amongst the behavioral repertoire in that it is continuously active throughout postnatal life. Indeed, humans breathe ~20,000 times per day and hundreds of millions of times over the average lifespan. In mammals, respiration is orchestrated by a distributed brainstem network, where a medullary nucleus termed the preBötzinger complex is critical for generating the respiratory rhythm.</p>
 <p align = "justify">Respiratory rate is constantly adapted to meet both homeostatic and behavioral needs. In previous work, we investigated excitatory and inhibitory mechanisms for controlling respiratory rate at precise frequencies. Unexpectedly, and in contrast to the classic model, we discovered that inhibition is requisite for fast modes of respiration as occur during exercise (<a href="https://jmcregg.github.io/files/Cregg_PNAS_2017.pdf" style="text-decoration: none" target="_blank"><i>PNAS</i>, 2017</a>).</p>
-
- <!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
-<div id="myModal2" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img02">
-  <div id="caption2"></div>
-</div>
-
-<div id="myModal3" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img03">
-  <div id="caption3"></div>
-</div>
 
 </body>
 </html>
