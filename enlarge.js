@@ -4,11 +4,11 @@ function enlargeImg() {
 }
 
 function enlargeImg2() {
-   var element = document.getElementById("myImg2");
-   element.classList.toggle("largeimage");
+   var element2 = document.getElementById("myImg2");
+   element2.classList.toggle("largeimage");
 }
 
 function enlargeImg3() {
-   var element = document.getElementById("myImg3");
-   element.classList.toggle("largeimage");
+   var element3 = document.getElementById("myImg3");
+   element3.classList.toggle("largeimage");
 }
