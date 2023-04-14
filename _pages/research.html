@@ -40,6 +40,11 @@ tr, td {
 #myImg3:hover {opacity: 0.6;}
 
 </style>
+
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+  
 </head>
 <body>
 
