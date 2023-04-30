@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "In the News"
+permalink: /news/
+author_profile: true
+
+---
+<html>
+<head>
+  
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+</head>
+<body>
+  
+
+
+</body>
+</html>
