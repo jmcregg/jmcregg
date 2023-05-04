@@ -12,6 +12,9 @@ main:
     
   - title: "CV"
     url: /cv/
+    
+  - title: "DEI"
+    url: /dei/
       
-  - title: "Lab Social"
+  - title: "Social"
     url: /social/
