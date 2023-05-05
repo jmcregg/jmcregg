@@ -9,13 +9,13 @@ customjs:
  - https://gist.github.com/aMarCruz/31255d2afa5ce91a3acb.js
 ---
 
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
 tr, td {
-    border: 1px solid red;
     vertical-align: top;
 	padding: 0;
     text-align: center;
@@ -26,7 +26,7 @@ tr, td {
   border-collapse: collapse; 
   border: none;
   width: 100%;
-  margin: 0 10px 5px 0;
+
 }
 
 .imgOne {
@@ -48,13 +48,11 @@ tr, td {
 }
 
 .left {
-    border: 1px solid red;
-    margin: 5px 5px 5px 0;   
+    margin: 0 5px 5px 0;   
 }
 
 .right {
-    border: 1px solid red;
-    margin: 5px 0 5px 5px;    
+    margin: 0 0 5px 5px;    
 }
 
 .imgOne:hover {opacity: 0.6;}
@@ -79,6 +77,42 @@ tr, td {
 <figure class="right">
   <img id="myImg2" class="imgOne" src="https://jmcregg.github.io/images/halloween2022.jpg" onclick = "enlargeImg2()">
   <figcaption id="captionTwo" style = "display: none;"><i>2022 Lab Halloween party</i></figcaption>
+</figure>
+</td>
+</tr>
+</table>
+
+<table class="smalltable">
+<tr>
+<td width="48%">
+<figure class="left">
+  <img id="myImg3" class="imgOne" src="https://jmcregg.github.io/images/simran_fens.jpg" onclick = "enlargeImg3()">
+  <figcaption id="captionThree" style = "display: none;"><i>Simran presents her first poster at FENS 2022 in Paris</i></figcaption>
+</figure>
+</td>
+
+<td width="48%">
+<figure class="right">
+  <img id="myImg4" class="imgOne" src="https://jmcregg.github.io/images/brainprize1.jpg" onclick = "enlargeImg4()">
+  <figcaption id="captionFour" style = "display: none;"><i>Lab photo from the 2022 Brain Prize celebration</i></figcaption>
+</figure>
+</td>
+</tr>
+</table>
+
+<table class="smalltable">
+<tr>
+<td width="48%">
+<figure class="left">
+  <img id="myImg5" class="imgOne" src="https://jmcregg.github.io/images/brainprize4.jpg" onclick = "enlargeImg5()">
+  <figcaption id="captionFive" style = "display: none;"><i>Celebrating the 2022 Brain Prize with Martyn Goulding's lab</i></figcaption>
+</figure>
+</td>
+
+<td width="48%">
+<figure class="right">
+  <img id="myImg6" class="imgOne" src="https://jmcregg.github.io/images/brainprize3.jpg" onclick = "enlargeImg6()">
+  <figcaption id="captionSix" style = "display: none;"><i>Out for dinner in Copenhagen with Kimberly Dougherty and Julien Bouvier</i></figcaption>
 </figure>
 </td>
 </tr>
