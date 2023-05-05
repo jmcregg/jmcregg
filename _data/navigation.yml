@@ -5,16 +5,16 @@ main:
     url: /research/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/   
+    
+  - title: "DEI"
+    url: /dei/
     
   - title: "Publications"
     url: /publications/  
     
   - title: "CV"
     url: /cv/
-    
-  - title: "DEI"
-    url: /dei/
-      
+
   - title: "Social"
     url: /social/
