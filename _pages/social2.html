@@ -18,8 +18,7 @@ customjs:
 tr, td {
     border: none;
     vertical-align: top;
-    padding: 0;
-    text-align: center;
+	padding: 0;
 }
 
 .smalltable {
@@ -30,21 +29,8 @@ tr, td {
 }
 
 .imgOne {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
   width: 100%;
   border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.imgTwo {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-  width: 100%;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
 .left {
@@ -55,8 +41,11 @@ tr, td {
     margin: 0 0 0 5px;    
 }
 
-.imgOne:hover {opacity: 0.6;}
-.imgTwo:hover {opacity: 0.6;}
+figcaption {
+  font-style: italic;
+  text-align: center;
+  font-size: 125%;
+}
 
 </style>
 </head>
@@ -65,57 +54,87 @@ tr, td {
 
 
 <table class="smalltable">
+
 <tr>
 <td width="48%">
 <figure class="left">
-  <img id="myImg" class="imgOne" src="https://jmcregg.github.io/images/DSC05337.jpg" onclick = "enlargeImg()">
-  <figcaption id="captionOne" style = "display: none;"><i>Jared and Juan Pineda (Allodi Lab) performed Reinhold Gliere's 8 pieces for violin and double bass at the 2022 Department of Neuroscience Holiday Party</i></figcaption>
+  <img class="imgOne" src="https://jmcregg.github.io/images/DSC05337.jpg">
+  <figcaption>Jared and Juan Pineda (Allodi Lab) performed Reinhold Gliere's 8 pieces for violin and double bass at the 2022 Department of Neuroscience Holiday Party</figcaption>
 </figure>
 </td>
 
 <td width="48%">
 <figure class="right">
-  <img id="myImg2" class="imgOne" src="https://jmcregg.github.io/images/halloween2022.jpg" onclick = "enlargeImg2()">
-  <figcaption id="captionTwo" style = "display: none;"><i>2022 Lab Halloween party</i></figcaption>
+  <img class="imgOne" src="https://jmcregg.github.io/images/halloween2022.jpg">
+  <figcaption>2022 Lab Halloween party</figcaption>
 </figure>
 </td>
 </tr>
-</table>
 
-<table class="smalltable">
 <tr>
 <td width="48%">
 <figure class="left">
-  <img id="myImg3" class="imgOne" src="https://jmcregg.github.io/images/simran_fens.jpg" onclick = "enlargeImg3()">
-  <figcaption id="captionThree" style = "display: none;"><i>Simran presents her first poster at FENS 2022 in Paris</i></figcaption>
+  <img class="imgOne" src="https://jmcregg.github.io/images/ncm2022.jpg">
+  <figcaption>Jared presents data at Neural Control of Movement 2022 in Dublin</figcaption>
 </figure>
 </td>
 
 <td width="48%">
 <figure class="right">
-  <img id="myImg4" class="imgOne" src="https://jmcregg.github.io/images/brainprize1.jpg" onclick = "enlargeImg4()">
-  <figcaption id="captionFour" style = "display: none;"><i>Lab photo from the 2022 Brain Prize celebration</i></figcaption>
+  <img class="imgOne" src="https://jmcregg.github.io/images/simran_fens.jpg">
+  <figcaption>Simran presents her first poster at FENS 2022 in Paris</figcaption>
 </figure>
 </td>
 </tr>
-</table>
 
-<table class="smalltable">
+
 <tr>
 <td width="48%">
 <figure class="left">
-  <img id="myImg5" class="imgOne" src="https://jmcregg.github.io/images/brainprize4.jpg" onclick = "enlargeImg5()">
-  <figcaption id="captionFive" style = "display: none;"><i>Celebrating the 2022 Brain Prize with Martyn Goulding's lab</i></figcaption>
+  <img class="imgOne" src="https://jmcregg.github.io/images/brainprize1.jpg">
+  <figcaption>Lab photo from the 2022 Brain Prize celebration</figcaption>
 </figure>
 </td>
 
 <td width="48%">
 <figure class="right">
-  <img id="myImg6" class="imgOne" src="https://jmcregg.github.io/images/brainprize3.jpg" onclick = "enlargeImg6()">
-  <figcaption id="captionSix" style = "display: none;"><i>Out for dinner in Copenhagen with Kimberly Dougherty and Julien Bouvier</i></figcaption>
+  <img class="imgOne" src="https://jmcregg.github.io/images/brainprize4.jpg">
+  <figcaption>Celebrating the 2022 Brain Prize with Martyn Goulding's lab</figcaption>
 </figure>
 </td>
 </tr>
+
+<tr>
+<td width="48%">
+<figure class="left">
+  <img class="imgOne" src="https://jmcregg.github.io/images/brainprize3.jpg">
+  <figcaption>Out for dinner in Copenhagen with Kimberly Dougherty and Julien Bouvier</figcaption>
+</figure>
+</td>
+
+<td width="48%">
+<figure class="right">
+  <img class="imgOne" src="https://jmcregg.github.io/images/brainprize2.jpg">
+  <figcaption>Champagne celebration for the announcement of the 2022 Brain Prize winners: Silvia Arber, Martyn Goulding, and Ole Kiehn</figcaption>
+</figure>
+</td>
+</tr>
+
+<tr>
+<td width="48%">
+<figure class="left">
+  <img class="imgOne" src="https://jmcregg.github.io/images/IMG_20190830.jpg">
+  <figcaption>Kiehn Lab retreat at Hackaberga Slott, Sweden</figcaption>
+</figure>
+</td>
+<td width="48%">
+<figure class="right">
+  <img class="imgOne" src="https://jmcregg.github.io/images/IMG_20190830.jpg">
+  <figcaption>Kiehn Lab retreat at Hackaberga Slott, Sweden</figcaption>
+</figure>
+</td>
+</tr>
+
 </table>
 
 </body>
