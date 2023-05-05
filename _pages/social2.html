@@ -10,52 +10,79 @@ customjs:
 ---
 
 <html>
- <head>
- <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
 
 tr, td {
-    border: none;
-} 
+    border: 1px solid red;
+    vertical-align: top;
+	padding: 0;
+    text-align: center;
+
+}
 
 .smalltable {
   border-collapse: collapse; 
   border: none;
-  width: 24%;
-  float: left;
-  margin: 0 10px 5px 0
-}
-   
-.largetable {
-  border-collapse: collapse; 
-  border: none;
-  display: block;
-  width: 60%;
-  float: none;
-  margin-left: 20%;
-  margin-right: 20%;
-  clear: left;
+  width: 100%;
+  margin: 0 10px 5px 0;
 }
 
-#myImg:hover {opacity: 0.6;}
+.imgOne {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.imgTwo {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.left {
+    border: 1px solid red;
+    margin: 5px 5px 5px 0;   
+}
+
+.right {
+    border: 1px solid red;
+    margin: 5px 0 5px 5px;    
+}
+
+.imgOne:hover {opacity: 0.6;}
+.imgTwo:hover {opacity: 0.6;}
 
 </style>
- 
 </head>
+
 <body>
 
-<h2 align = "left">Lab Social</h2>
 
-<table id="TableOne" class="smalltable">
+<table class="smalltable">
+<tr>
+<td width="48%">
+<figure class="left">
+  <img id="myImg" class="imgOne" src="https://jmcregg.github.io/images/DSC05337.jpg" onclick = "enlargeImg()">
+  <figcaption id="captionOne" style = "display: none;"><i>Jared and Juan Pineda (Allodi Lab) performed Reinhold Gliere's 8 pieces for violin and double bass at the 2022 Department of Neuroscience Holiday Party</i></figcaption>
+</figure>
+</td>
 
-<tr><td><img id="myImg" style="border-radius: 8px; cursor: pointer;transition: 0.3s;" width="100%" height="100%" src="https://jmcregg.github.io/images/DSC05337.jpg" onclick = "enlargeImg()"></td></tr>
-
-<tr id="Row1" style= "display: none"><td style="text-align: center"><figcaption><i>Jared and Juan Pineda (Allodi Lab) performed Reinhold Gliere's 8 pieces for violin and double bass at the 2022 Department of Neuroscience Holiday Party.</i></figcaption></td></tr>
+<td width="48%">
+<figure class="right">
+  <img id="myImg2" class="imgOne" src="https://jmcregg.github.io/images/halloween2022.jpg" onclick = "enlargeImg2()">
+  <figcaption id="captionTwo" style = "display: none;"><i>2022 Lab Halloween party</i></figcaption>
+</figure>
+</td>
+</tr>
 </table>
-
-
-
 
 </body>
 </html>
