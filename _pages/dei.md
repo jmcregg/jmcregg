@@ -28,6 +28,7 @@ author_profile: true
 <h3>Resources</h3>
   <a href="https://www.alba.network/" style="text-decoration: none" target="_blank">ALBA Network</a>
   <br><a href="https://danwise.org/" style="text-decoration: none" target="_blank">Danish Society for Women in Science (DANWISE)</a>
+  <br><a href="https://blackinneuro.com/" style="text-decoration: none" target="_blank">Black in Neuro</a>
   <br><a href="https://nrmnet.net/" style="text-decoration: none" target="_blank">National Research Mentoring Network (NRMN)</a>
 
 </body>
