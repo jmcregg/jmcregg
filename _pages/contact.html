@@ -25,6 +25,17 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 input[type=submit] {
   background-color: #0e76bc;
   color: white;
@@ -50,15 +61,15 @@ input[type=submit]:hover {
 <h3>Contact Form</h3>
 
 <div class="container">
-  <form method="post">
+ <form action="https://forms.un-static.com/forms/d01403e5c6058ed2e2ad3082caeef4b2879e85c1" method="post">
     <label for="fname">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name...">
+    <input type="text" id="name" name="name" required minlength="6" placeholder="Your name...">
 
     <label for="lname">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email address...">
+    <input type="email" id="email" name="email" required placeholder="Your email address...">
 
     <label for="subject">Message</label>
-    <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+    <textarea id="message" name="message" required minlength="12" placeholder="Write something..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
