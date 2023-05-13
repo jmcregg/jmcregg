@@ -23,7 +23,7 @@ author_profile: true
 
 <p align = "justify">In the lab, we aim to create a welcoming environment for people of all backgrounds, particularly those historically excluded from research in neuroscience. Diversity drives innovation and fosters scientific excellence. We actively work to promote equity in our recruitment, training, and mentoring practices.</p>
   
-<p align = "justify">We continuously educate ourselves on issues related to diversity, equity, and inclusion. Our diversity reading group facilitates active discussions on how we can better support and accommodate people of all backgrounds. By embracing diversity and promoting inclusion, our goal is to fuel innovation that positively impacts people from all walks of life.</p>
+<p align = "justify">We continuously educate ourselves on issues related to diversity, equity, and inclusion. Our diversity reading group facilitates active discussion on how we can better support and accommodate people of all backgrounds. By embracing diversity and promoting inclusion, our goal is to fuel innovation that positively impacts people from all walks of life.</p>
   
 <h3>Resources</h3>
   <a href="https://www.alba.network/" style="text-decoration: none" target="_blank">ALBA Network</a>
