@@ -19,7 +19,7 @@ author_profile: true
 <center><img src="/images/diversity_resp.jpg" style="width:60%; border-radius: 8px"></center>
 <br>
   
-<p align = "justify">As a researcher in systems neuroscience, I recognize that our field has not always been welcoming to diverse perspectives. Longstanding and systemic barriers have prevented diverse voices, especially those of women and people of color, from fully participating and being represented in the field.</p>
+<p align = "justify">As a researcher in systems neuroscience, I recognize that our field has not always been welcoming to diverse perspectives. Longstanding and systemic barriers have prevented diverse voices, especially those of women and people of color, from full participation and representation in the field.</p>
 
 <p align = "justify">In the lab, we aim to create a welcoming environment for people of all backgrounds, particularly those historically excluded from research in neuroscience. Diversity drives innovation and fosters scientific excellence. We actively work to promote equity in our recruitment, training, and mentoring practices.</p>
   
