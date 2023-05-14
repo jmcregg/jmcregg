@@ -1,5 +1,5 @@
 ---
-title: "The Lundbeck Foundation supports young researchers with DKK 69 million"
+title: "The Lundbeck Foundation supports young researchers with 69 million DKK"
 collection: news
 date: 2021-04-15
 venue: 'Lundbeck Foundation'
