@@ -1,7 +1,7 @@
 ---
 title: "Hidden Assets"
 collection: news
-date: 2020-03
+date: 2020-03-01
 venue: 'The Spin'
 pubtype: 'news'
 link: "https://sci-bc.ca/wp-content/uploads/2018/03/spin-march-2018-final-for-web-1.pdf#page=30"
