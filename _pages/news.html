@@ -16,24 +16,13 @@ author_profile: true
 </head>
 <body>
   
-<div style="background-color: #f1f1f1" markdown=1> 
-<div style="padding-top: 0.1px; padding-bottom: 3%; margin-left: 5%; margin-right: 5%;" markdown=1>
+<div style="background-color: #f1f1f1; padding-top: 3%; padding-bottom: 1%;" markdown=1>
 {% for post in site.news reversed %}
   {% if post.pubtype == 'news' %} 
   {% include archive-news.html %}
   {% endif %}
 {% endfor %}
 </div>
-</div>
-  
-<div style= "background-color: white; padding: 10px;">
-  <img src="https://jmcregg.github.io/images/lundbeck.jpg" style="width:30%; float:left; margin: 0 20px 10px 0;">
-  <figcaption><i>15 April 2021</i>
-  <br><br> Lundbeck Foundation </figcaption><br><br>
-  <b>The Lundbeck Foundation supports younger researchers with DKK 69 million</b>
-  <p>The grant ensures 33 health science researchers two to three years of funding for their work...</p>
-</div>
-<br>
 
 </body>
 </html>
