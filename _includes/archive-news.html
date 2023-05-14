@@ -1,48 +1,13 @@
-{% include base_path %}
-
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-
-    <!--    <a href="{{ base_path }}{{ post.url }}">{{ title }}</a><br> -->
-        <i>{{title}}</i> <br>
-        <!--        {{post.authors}}. <br> -->
-        {{post.authbefore}} <b>Cregg JM</b>{{post.authafter}}.
-        {% if post.special %}
-        {{ post.special }}
-        {% endif %}
-        <br>
-    <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}. 
-        {% if post.paperurl %}
-        (<a href=" {{ post.paperurl }} " style="text-decoration: none" target="_blank">link</a>)
-        {% endif %}
-        {% if post.pdf %}
-          (<a href=" {{ post.pdf }} " style="text-decoration: none" target="_blank">pdf</a>)
-        {% endif %}
-        <br>
-    <!--    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: <p> | remove: </p>}}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p> -->
-  
-  </article>
+<div style= "background-color: white; padding: 10px; margin-left: 3%; margin-right: 3%;">
+   {% if post.image %}
+          (<img src=" {{ post.image }} " style="width:30%; float:left; margin: 0 20px 10px 0;">)
+   {% endif %}
+  <figcaption><i>{{ post.date | default: "1900-01-01" | date: "%e %B %Y" }}</i>
+    <br> {{ post.venue }} </figcaption><br>
+  <b>{{ post.title }}</b>
+  <p>{{ post.preview }}</p>
+  {% if post.url %}
+  (<a href=" {{ post.url }} " style="text-decoration: none" target="_blank">.. read more</a>)
+  {% endif %}
 </div>
+<br>
