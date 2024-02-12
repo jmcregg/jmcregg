@@ -2,7 +2,6 @@
 title: "Functional Regeneration Beyond the Glial Scar"
 authafter: ", DePaul MA, Filous AR, Lang BT, Tran A, Silver J"
 collection: publications
-permalink:
 date: 2014-03-01
 venue: 'Experimental Neurology'
 pubtype: 'graduate'
