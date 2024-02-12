@@ -3,7 +3,6 @@ title: "Overexpression of the Monocyte Chemokine CCL2 in Dorsal Root Ganglion Ne
 authbefore: "Niemi JP, DeFrancesco-Lisowitz A,"
 authafter: ", Howarth M, Zigmond RE"
 collection: publications
-permalink:
 date: 2016-01-01
 venue: 'Experimental Neurology'
 pubtype: 'graduate'
