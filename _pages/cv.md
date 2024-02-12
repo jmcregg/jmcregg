@@ -11,7 +11,7 @@ redirect_from:
 {% include analytics.html %}
 {% endif %}
 
-Download full CV [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}{:style="text-decoration: none"} (_last updated Jan 2024_)
+Download full CV [here](https://jmcregg.github.io/files/Cregg_JM_CV_Long.pdf){:target="_blank"}{:style="text-decoration: none"} (_last updated Feb 2024_)
 
 <div style="background-color: #f2f3f3" markdown=1> 
 <div style="padding-top: 0.1pt; padding-bottom: 1%; margin-left: 5%; margin-right: 5%;" markdown=1>
